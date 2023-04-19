@@ -1,2 +1,2 @@
 # tp-index
-TP 3 Techniques d’indexation et recherche multimédia - LGLSI-2 
+TP 2+3 Techniques d’indexation et recherche multimédia - LGLSI-2 
