@@ -1,7 +1,7 @@
 import os
 
 def f1_stem(val):
-    stop_list = ["a", "an", "and", "are", "as", "at", "be", "but", "by", "for", "if", "in", "into", "is", "it", "no", "not", "of", "on", "or", "such", "that", "the", "their", "then", "there", "these", "they", "this", "to", "was", "will", "with"]
+    stop_list = ["de","a", "an", "and", "are", "as", "at", "be", "but", "by", "for", "if", "in", "into", "is", "it", "no", "not", "of", "on", "or", "such", "that", "the", "their", "then", "there", "these", "they", "this", "to", "was", "will", "with"]
     f = open(val, "r")
     mots = f.read().split()
     mots= [mots.lower() for mots in mots if mots not in stop_list]
